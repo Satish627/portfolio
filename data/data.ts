@@ -3,7 +3,7 @@ export const BaseInfo = {
     position: "Web Developer",
     description:
       "I am a passionate web developer with a knack for creating dynamic and user-friendly web applications. My goal is to deliver high-quality solutions that meet client needs and exceed expectations.",
-    profilePic: "/images/hero.png",
+    profilePic: "/images/Me.png",
   };
   
   export const aboutInfo = {
