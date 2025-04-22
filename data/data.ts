@@ -106,68 +106,46 @@ export const BaseInfo = {
     },
   ];
   
-  export const skillsData = [
-    {
-      id: 1,
-      title: "React",
-      image: "/images/react.svg",
-      percent: "90%",
-    },
-    {
-      id: 2,
-      title: "CSS",
-      image: "/images/css.svg",
-      percent: "97%",
-    },
-    {
-      id: 3,
-      title: "JavaScript",
-      image: "/images/js.svg",
-      percent: "77%",
-    },
-    {
-      id: 4,
-      title: "TypeScript",
-      image: "/images/ts.svg",
-      percent: "67%",
-    },
-    {
-      id: 5,
-      title: "HTML",
-      image: "/images/html.svg",
-      percent: "67%",
-    },
-    {
-      id: 6,
-      title: "Node JS",
-      image: "/images/node.svg",
-      percent: "77%",
-    },
-    {
-      id: 7,
-      title: "MongoDB",
-      image: "/images/mongo.svg",
-      percent: "65%",
-    },
-    {
-      id: 8,
-      title: "Python",
-      image: "/images/python.svg",
-      percent: "55%",
-    },
-    {
-      id: 9,
-      title: "Firebase",
-      image: "/images/firebase.svg",
-      percent: "75%",
-    },
-    {
-      id: 10,
-      title: "Vue",
-      image: "/images/vue.svg",
-      percent: "35%",
-    },
-  ];
+  export const categorizedSkillsData = {
+    "Programming Languages": [
+      { title: "Java", image: "/images/languages/java.svg"},
+      { title: "C#", image: "/images/languages/c-sharp.svg" },
+      { title: "JavaScript", image: "/images/languages/js.svg" },
+      { title: "TypeScript", image: "/images/languages/typescript.svg"},
+      { title: "Python", image: "/images/languages/python.svg"},
+    ], 
+    "Frontend Development": [
+      { title: "HTML", image: "/images/frontend/html.svg" },
+      { title: "CSS", image: "/images/frontend/css.svg" },
+      { title: "React", image: "/images/frontend/react.svg" },
+      { title: "Next.js", image: "/images/frontend/nextjs.svg" },
+      { title: "Redux", image: "/images/frontend/redux.svg" },
+      { title: "Bootstrap", image: "/images/frontend/bootstrap.svg" },
+      { title: "Tailwind", image: "/images/frontend/tailwind.svg" },
+      { title: "Android Development", image: "/images/frontend/react.svg" },
+      
+    ],
+    "Backend Development": [
+      { title: "Node.js", image: "/images/backend/node.svg" },
+      { title: ".NET Core", image: "/images/backend/node.svg"},
+      { title: "Spring Boot", image: "/images/backend/node.svg" },
+
+    ],
+   
+    "Databases": [
+      { title: "PostgreSQL", image: "/images/database/postgrsql.svg",  },
+      { title: "MongoDB", image: "/images/database/mongo.svg",  },
+      { title: "Firebase", image: "/images/database/firebase.svg", },
+      { title: "MySql", image: "/images/database/mysql.svg", },
+
+    ],
+    "Others": [
+      { title: "Docker", image: "/images/others/vue.svg" },
+      { title: "Git", image: "/images/others/git.svg" },
+      { title: "Jira", image: "/images/others/jira.svg" },
+      { title: "Postman", image: "/images/others/postman.svg" },
+    ],
+  };
   
   export const clientReviews = [
     {
