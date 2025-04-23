@@ -4,6 +4,11 @@ export const BaseInfo = {
     description:
       "I am a passionate web developer with a knack for creating dynamic and user-friendly web applications. My goal is to deliver high-quality solutions that meet client needs and exceed expectations.",
     profilePic: "/images/Me.png",
+    email: "satish.grg627@gmail.com",
+    address: "Copenhagen,Denmark",
+    linkedIn: "https://www.linkedin.com/in/satish-gurung-3a2781223/",
+    github: "https://github.com/Satish627",
+    cv: "https://flowcv.com/resume/n1eo6banns"
   };
   
   export const categorizedSkillsData = {
@@ -22,25 +27,25 @@ export const BaseInfo = {
       { title: "Redux", image: "/images/frontend/redux.svg" },
       { title: "Bootstrap", image: "/images/frontend/bootstrap.svg" },
       { title: "Tailwind", image: "/images/frontend/tailwind.svg" },
-      { title: "Android Development", image: "/images/frontend/react.svg" },
+      { title: "Android Development", image: "/images/frontend/android.svg" },
       
     ],
     "Backend Development": [
       { title: "Node.js", image: "/images/backend/node.svg" },
-      { title: ".NET Core", image: "/images/backend/node.svg"},
-      { title: "Spring Boot", image: "/images/backend/node.svg" },
+      { title: ".NET Core", image: "/images/backend/dot.svg"},
+      { title: "Spring Boot", image: "/images/backend/spring-logo.png" },
 
     ],
    
     "Databases": [
-      { title: "PostgreSQL", image: "/images/database/postgrsql.svg",  },
+      { title: "PostgreSQL", image: "/images/database/postgresql.svg",  },
       { title: "MongoDB", image: "/images/database/mongo.svg",  },
       { title: "Firebase", image: "/images/database/firebase.svg", },
       { title: "MySql", image: "/images/database/mysql.svg", },
 
     ],
     "Others": [
-      { title: "Docker", image: "/images/others/vue.svg" },
+      { title: "Docker", image: "/images/others/docker.svg" },
       { title: "Git", image: "/images/others/git.svg" },
       { title: "Jira", image: "/images/others/jira.svg" },
       { title: "Postman", image: "/images/others/postman.svg" },
@@ -60,7 +65,7 @@ export const BaseInfo = {
     {
       id:2,
       image: "/images/education/via.png",
-      institutionName: "VIA University College (VIA)",
+      institutionName: "VIA University College",
       programName: "Bachelor’s in Software Engineering",
       attendedYear: "2020 - 2024",
       description: "Gained practical experience in full-stack development, system design, and agile methodologies through various academic and industry projects.",
@@ -83,7 +88,6 @@ export const BaseInfo = {
   ];
   
   export const contactData = {
-    phone: "+88(012345 789)",
-    email: "example@gmail.com",
-    address: "Dhaka , Bangladesh",
+    email: "satish.grg627@gmai.com",
+    address: "Copenhagen,Denmark",
   };

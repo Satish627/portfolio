@@ -16,8 +16,8 @@ const SkillCard = ({ skill }: Props) => {
       <Image
         src={image}
         alt={title}
-        width={40}
-        height={40}
+        width={30}
+        height={30}
         className='object-cover mx-auto mb-4'
       />
       <h3 className='text-white text-lg font-semibold'>{title}</h3>

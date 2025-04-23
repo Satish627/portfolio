@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionHeading from '../Helper/SectionHeading';
+import SectionHeading from '../../Helper/SectionHeading';
 import { experience } from '@/data/data';
 import Image from 'next/image';
 

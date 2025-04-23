@@ -50,12 +50,7 @@ const Nav = ({openNav}: Props) => {
             })}
           </div>
           {/**Button */}
-            <div className='flex items-center space-x-4'>
-              <button className='md:px-10 md:py-3 px-8 py-3 text-blue-800 font-semibold sm:text-base text-sm bg-white
-              hover:bg-gray-200 transition-all duration-200 rounded-lg'>
-                Hire Me
-              </button>
-
+            <div>
               {/**Burger icon */}
               <HiBars3BottomRight onClick={openNav}
                className='w-8 h-8 cursor-pointer text-white lg:hidden'/>
