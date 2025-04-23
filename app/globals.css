@@ -31,4 +31,16 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .custom-scrollbar::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track{
+  background: #3240b3;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb{
+    background: #c5cbdc;
+    border-radius: 4px;
+    }
 }
