@@ -1,15 +1,19 @@
-import React from 'react';
-import SectionHeading from '../../Helper/SectionHeading';
-import { experience } from '@/data/data';
-import Image from 'next/image';
+import SectionHeading from '@/components/Helper/SectionHeading'
+import { experience } from '@/data/data'
+import Image from 'next/image'
+import React from 'react'
 
-const Experience = () => {
+const ExperiencePage = () => {
   return (
-    <div className='pt-16 pb-16 bg-[#0f0715]'>
+    <div>
+<div className="pt-16 pb-16 bg-[#0f0715]">
       <SectionHeading>My Experiences</SectionHeading>
       <div className="w-[90%] mx-auto mt-20 flex flex-col gap-8 text-white">
         {experience.map((exp, id) => (
           <div
+            data-aos="zoom-in-up"
+            data-aos-offset="200"
+            data-aos-delay={id * 150}
             key={id}
             className="bg-[#0f0715] border border-gray-700 p-6 rounded-xl shadow-md transition-transform hover:scale-[1.02] hover:bg-blue-900 flex flex-col md:flex-row gap-6 items-center"
           >
@@ -41,8 +45,8 @@ const Experience = () => {
           </div>
         ))}
       </div>
-    </div>
-  );
-};
+    </div>    </div>
+  )
+}
 
-export default Experience;
+export default ExperiencePage

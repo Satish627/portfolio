@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
-import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import ResponsiveNav from "@/app/home/Navbar/ResponsiveNav";
 import ScrollToTop from "@/components/Helper/ScrollToTop";
 
 const font = Sora({

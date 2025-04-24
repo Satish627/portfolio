@@ -25,20 +25,20 @@ const Hero = () => {
           {/* Text content */}
           <div>
             {/* Sub heading */}
-            <h1 className="text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold">
+            <h1 data-aos="fade-left" className="text-2xl md:text-3xl lg:text-4xl mb-5 text-gray-300 font-semibold">
               I am {BaseInfo.name}
             </h1>
             {/* Title */}
-            <h2 className="text-bg text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white">
+            <h2 data-aos="fade-right" data-aos-delay="100" className="text-bg text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white">
               {BaseInfo.position}
             </h2>
             {/* Description */}
-            <p className="mt-6 text-sm md:text-base text-white text-opacity-60">
+            <p data-aos="fade-left"  data-aos-delay="200" className="mt-6 text-sm md:text-base text-white text-opacity-60">
               {BaseInfo.description}
             </p>
 
             {/* Buttons and social icons */}
-            <div className="flex items-center gap-4 mt-8">
+            <div className="flex items-center gap-4 mt-8" data-aos="zoom-in"  data-aos-delay="300">
               {/* Download CV */}
               <a href={BaseInfo.cv} rel="noopener noreferrer" target="_blank">
                 <button className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-blue-700 hover:bg-blue-900 flex items-center space-x-2">
@@ -59,7 +59,7 @@ const Hero = () => {
             </div>
 
             {/* Email with copy icon */}
-            <div className="flex items-center gap-2 mt-6">
+            <div className="flex items-center gap-2 mt-6" data-aos="fade-right"  data-aos-delay="400">
               <button onClick={copyToClipboard} className="transition-colors">
                 {copied ? (
                   <FaCheck className="text-green-400 text-xl" />
@@ -74,7 +74,7 @@ const Hero = () => {
           </div>
 
           {/* Image content */}
-          <div className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-hidden">
+          <div data-aos="zoom-in"  data-aos-delay="500" className="mx-auto hidden lg:block rounded-[3rem] border-[3.5px] border-blue-950 overflow-hidden">
             <Image
               src={BaseInfo.profilePic}
               alt={BaseInfo.name}
