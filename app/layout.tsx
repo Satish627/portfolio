@@ -5,9 +5,9 @@ import ResponsiveNav from "@/app/home/Navbar/ResponsiveNav";
 import ScrollToTop from "@/components/Helper/ScrollToTop";
 
 const font = Sora({
-  weight: ['100', '200', '300', '400','500','600','700','800'],
-  subsets: ['latin']
-})
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "My portfolio",
@@ -22,10 +22,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="custom-scrollbar">
       <body
-        className={font.className}>
-          <ResponsiveNav />
+        className={`${font.className} bg-white text-black dark:bg-[#0f0715] dark:text-white transition-colors duration-300`}
+      >
+        <ResponsiveNav />
         {children}
-        <ScrollToTop/>
+        <ScrollToTop />
       </body>
     </html>
   );

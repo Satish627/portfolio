@@ -8,9 +8,10 @@ import { HiBars3BottomRight } from "react-icons/hi2";
 //Define props type
 type Props = {
   openNav: () => void;
+  themeToggle: React.ReactNode;
 };
 
-const Nav = ({ openNav }: Props) => {
+const Nav = ({ openNav, themeToggle }: Props) => {
   const [navBg, setNavBg] = useState(false);
   useEffect(() => {
     const handler = () => {
@@ -35,34 +36,32 @@ const Nav = ({ openNav }: Props) => {
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto">
         {/**Logo */}
         <Link href="/">
-            <Image
-              src="/images/logo.png"
-              alt="LOGO"
-              width={100}
-              height={100}
-              className="ml-[-1.5rem] sm:ml-0"
-            />
+          <Image
+            src="/images/logo.png"
+            alt="LOGO"
+            width={100}
+            height={100}
+            className="ml-[-1.5rem] sm:ml-0"
+          />
         </Link>
 
-        {/**Nav links */}
-        <div className="flex items-center space-x-10">
+        <div className="flex items-center space-x-6">
           <div className="hidden lg:flex items-center space-x-8">
-            {navLinks.map((navlink) => {
-              return (
-                <Link key={navlink.id} href={navlink.url}>
-                  <p className="nav_link">{navlink.label}</p>
-                </Link>
-              );
-            })}
+            {navLinks.map((navlink) => (
+              <Link key={navlink.id} href={navlink.url}>
+                <p className="nav_link">{navlink.label}</p>
+              </Link>
+            ))}
           </div>
-          {/**Button */}
-          <div>
-            {/**Burger icon */}
-            <HiBars3BottomRight
-              onClick={openNav}
-              className="w-8 h-8 cursor-pointer text-white lg:hidden"
-            />
-          </div>
+
+          {/* Theme Toggle */}
+          <div className="block">{themeToggle}</div>
+
+          {/* Burger icon (visible on small screens) */}
+          <HiBars3BottomRight
+            onClick={openNav}
+            className="w-8 h-8 cursor-pointer text-white lg:hidden"
+          />
         </div>
       </div>
     </div>
