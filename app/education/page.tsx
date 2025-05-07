@@ -6,7 +6,7 @@ import React from 'react'
 const EducationPage = () => {
   return (
     <div>
- <div className='pt-16 pb-16 bg-[#0f0715]'>
+ <div className='pt-32 pb-16 bg-[#0f0715]'>
             <SectionHeading>My Educations</SectionHeading>
 
             <div className="w-[90%] mx-auto mt-20 flex flex-col gap-4 lg:grid-cols-3 text-white  ">
