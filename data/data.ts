@@ -87,7 +87,4 @@ export const BaseInfo = {
     }
   ];
   
-  export const contactData = {
-    email: "satish.grg627@gmai.com",
-    address: "Copenhagen,Denmark",
-  };
+  
