@@ -15,7 +15,7 @@ const ExperiencePage = () => {
               data-aos-offset="200"
               data-aos-delay={id * 150}
               key={id}
-              className="bg-[#0f0715] border border-gray-700 p-6 rounded-xl shadow-md transition-transform hover:scale-[1.02] hover:bg-blue-900 flex flex-col md:flex-row gap-6 items-center"
+              className="bg-[#0f0715] border border-gray-700 p-6 rounded-xl shadow-md transition-transform hover:scale-[1.02] hover:bg-emerald-800 flex flex-col md:flex-row gap-6 items-center"
             >
               <div className="flex-shrink-0">
                 <Image

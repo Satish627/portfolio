@@ -30,7 +30,7 @@ const Nav = ({ openNav, themeToggle }: Props) => {
   return (
     <div
       className={`fixed h-[12vh] z-[10] w-full transition-all duration-200 ${
-        navBg ? "bg-[#3240b3]" : ""
+        navBg ? "bg-[#10B981]" : ""
       }`}
     >
       <div className="flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto">

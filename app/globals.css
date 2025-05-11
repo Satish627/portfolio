@@ -14,7 +14,7 @@
       after:content-['']
       after:absolute
       after:h-[3px]
-      after:bg-yellow-400 text-white
+      after:bg-emerald-400 text-white
       after:w-full
 
       /* transform for the hover animation */
@@ -26,7 +26,7 @@
     ;
   }
   .text-bg{
-    background-image: linear-gradient(to right, #8750f5 0%,#ffffff 100%);
+    background-image: linear-gradient(to right, #10B981 0%,#ffffff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -37,10 +37,12 @@
     height: 10px;
   }
   .custom-scrollbar::-webkit-scrollbar-track{
-  background: #3240b3;
+  background: #10B981;
   }
   .custom-scrollbar::-webkit-scrollbar-thumb{
     background: #c5cbdc;
     border-radius: 4px;
     }
+    
+    
 }

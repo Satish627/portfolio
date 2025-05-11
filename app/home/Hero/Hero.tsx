@@ -29,7 +29,7 @@ const Hero = () => {
               I am {BaseInfo.name}
             </h1>
             {/* Title */}
-            <h2 data-aos="fade-right" data-aos-delay="100" className="text-bg text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white">
+            <h2 data-aos="fade-right" data-aos-delay="100" className="text- text-3xl  text-bg sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white">
               {BaseInfo.position}
             </h2>
             {/* Description */}
@@ -41,7 +41,7 @@ const Hero = () => {
             <div className="flex items-center gap-4 mt-8" data-aos="zoom-in"  data-aos-delay="300">
               {/* Download CV */}
               <a href={BaseInfo.cv} rel="noopener noreferrer" target="_blank">
-                <button className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-blue-700 hover:bg-blue-900 flex items-center space-x-2">
+                <button className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg bg-emerald-600 hover:bg-emerald-800 flex items-center space-x-2">
                   <span>Download CV</span>
                   <FaDownload />
                 </button>
@@ -49,12 +49,12 @@ const Hero = () => {
 
               {/* LinkedIn */}
               <a href={BaseInfo.linkedIn} target="_blank" rel="noopener noreferrer">
-                <FaLinkedin className="text-white text-2xl hover:text-blue-500 transition-colors" />
+                <FaLinkedin className="text-white text-2xl hover:text-emerald-800 transition-colors" />
               </a>
 
               {/* GitHub */}
               <a href={BaseInfo.github} target="_blank" rel="noopener noreferrer">
-                <FaGithub className="text-white text-2xl hover:text-gray-400 transition-colors" />
+                <FaGithub className="text-white text-2xl hover:text-emerald-800 transition-colors" />
               </a>
             </div>
 

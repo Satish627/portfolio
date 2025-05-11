@@ -13,7 +13,7 @@ const EducationPage = () => {
                 {education.map((edu, id) => (
                     <div key={id} data-aos="zoom-in-up"
                     data-aos-offset="200"
-                    data-aos-delay={id * 150} className="bg-[#0f0715] border border-gray-700 p-6 rounded-xl shadow-md transition-transform hover:scale-[1.02]  hover:bg-blue-900 flex flex-col md:flex-row gap-6 items-center">
+                    data-aos-delay={id * 150} className="bg-[#0f0715] border border-gray-700 p-6 rounded-xl shadow-md transition-transform hover:scale-[1.02]  hover:bg-emerald-800 flex flex-col md:flex-row gap-6 items-center">
                         <div className="flex-shrink-0">
                             <Image src={edu.image} alt='image' width={150} height={150}     
                                         className="rounded-md object-contain"
